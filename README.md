@@ -18,6 +18,7 @@ Ou seja é **o que o sistema deve fazer**, por exemplo: "manter o usuário" é u
 leia-se _CRUD_. A orientção é considerar cada função separadamente, ou seja, imagine um requisito de _CRUD_ de paçoquinha: cada operação de Criar, Ler, Atualizar e ~~Comer~~ Deletar deve ser contada separadamente.
   
 - **Saída Externa**: "Funcionalidades que apresentam informações para o usuário com utilização de cálculos ou algoritmos. São as consultas ou relatórios com totalização de dados, relatórios estatísticos, gráficos, entre outros.". Imagine que um dos requisitos funcionais é entregar um relatório de todas as paçocas consumidas por DPJ nas reuniões, com os dados abaixo junto de um dashboard:
+
    | Membro | Média de Paçocas | Valor Total Consumido | [PCC](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) com felicidade|
   | --------|------------------|-----------------------|-------|
 
