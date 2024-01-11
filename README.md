@@ -20,15 +20,17 @@ leia-se _CRUD_. A orientção é considerar cada função separadamente, ou seja
 - **Saída Externa**: "Funcionalidades que apresentam informações para o usuário com utilização de cálculos ou algoritmos. São as consultas ou relatórios com totalização de dados, relatórios estatísticos, gráficos, entre outros.". Imagine que um dos requisitos funcionais é entregar um relatório de todas as paçocas consumidas por DPJ nas reuniões, com os dados abaixo junto de um dashboard:
   
   
-    1. Membro
-    2. Média de Paçocas
-    3. Valor Total Consumido
-    4. [PCC](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) com felicidade</tr>
+    1. Membro;
+    2. Média de Paçocas;
+    3. Valor Total Consumido;
+    4. [PCC](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) com felicidade;
    
 
-  Concorda que para termos média, valor total e PCC devemos realizar cálculos? Bem, ai está um requisito de saída externa. Outro exemplo, uma plataforma de estudos precisa entregar cards de disciplina com distribuição baseada por determinadas condições, como: familiaridade com o tópico, tempo de estudo, etc. Não possuímos um "conta" clara, mas com o regulamento em baixo do braço ("apresentam informações para o usuário com utilização de cálculos ou **algoritmos**") podemos considerá-lo como requisito de saída externa.
+  Concorda que para termos média, valor total e PCC devemos realizar cálculos? Bem, ai está um requisito de saída externa.
+
+  Outro exemplo, uma plataforma de estudos precisa entregar cards de disciplina com distribuição baseada por determinadas condições, como: familiaridade com o tópico, tempo de estudo, etc. Não possuímos um "conta" clara, mas com o regulamento em baixo do braço ("apresentam informações para o usuário com utilização de cálculos ou **algoritmos**") podemos considerá-lo como requisito de saída externa.
   
-- **Consulta Externa**: "Funcionalidades que apresentam informações para o usuário sem a utilização de cálculos ou algoritmos. São os processos elementares do tipo “lê - imprime - apresenta dados”, incluindo consultas, relatórios entre outros.". Voltando ao exemplo das paçocas ~~sim, eu gosto bastante :)~~. De tanto que DPJ as consumiu foi desenvolvido uma série de casos de diabetes, e pior, o vício foi passado para os membros da família; e o Diretor de DVP solicita um relatório com todos os casos (de membro e familiares) com dados de cada um e a conta do hospital. Perceba que para processarmos esse relatório não há a necessidade de realizar contas ou lógica complexa, somente a boa e velha consulta SQL simples (com muitos [_JOINs_](https://en.wikipedia.org/wiki/Join_(SQL))). Temos ai um requisito de consulta externa :)
+- **Consulta Externa**: "Funcionalidades que apresentam informações para o usuário sem a utilização de cálculos ou algoritmos. São os processos elementares do tipo “lê - imprime - apresenta dados”, incluindo consultas, relatórios entre outros.". Voltando ao exemplo das paçocas ~~sim, eu gosto bastante :)~~. De tanto que DPJ as consumiu foi desenvolvido uma série de casos de diabetes, e pior, o vício foi passado para os membros das famílias de cada membro; e o Diretor de DVP solicita um relatório com todos os casos (de membro e familiares) com dados de cada um e a conta do hospital. Perceba que para processarmos esse relatório não há a necessidade de realizar contas ou lógica complexa, somente a boa e velha consulta SQL simples (com muitos [_JOINs_](https://en.wikipedia.org/wiki/Join_(SQL))). Temos ai um requisito de consulta externa :)
 
 - **Arquivo Lógico Interno**: "Banco de Dados Lógico da Aplicação (tabelas e arquivos mantidos pela aplicação).". Talvez o mais simples deles. Se temos um back-end que guarda informções da aplicação por um banco de dados, temos um arquivo lógico interno. Lembre-se de conta-lo pra cada banco que for utilizado pela aplicação! (Geralmente é apenas um mesmo).
 > PS: O texto fala de arquivos da aplicação, mas se tu ver o gerente sugerindo guardar **qualquer** dado em um arquivo, pode ir falar com o diretor de DPJ, é pcd na hora :)
@@ -52,3 +54,5 @@ Então provavelmente é de dificuldade média. Agora, se as respostas foram:
 Temos uma dificuldade complexa ai.
 
 > PS: Essas perguntas são apenas para te direcionar, **não siga regras automáticamente sem pensar sobre elas**, conversar com um membro de DPJ, com o cliente, pesquisar sobre o tópico são a chave para realizar uma boa precificação. Quanto mais você fizer e quanto mais analisar o que acertou e errou melhor tu vai ficar nisso :) 
+
+<footer style="text-align: center">Feito com 💕 por <a href="https://github.com/diegoreis42" target="_blank">Diego Reis</a></footer>
